@@ -158,7 +158,8 @@
       "customPassphrasePlaceholder": "Enter your custom passphrase",
       "useCustomPassphrase": "Use Custom Passphrase",
       "invalidPassphraseCharacters": "Invalid passphrase characters. Only English letters, numbers 1-10, and normal symbols are allowed.",
-      "passphraseTooShort": "Passphrase must be at least 8 characters long."
+      "passphraseTooShort": "Passphrase must be at least 8 characters long.",
+      "usePasskeyInstead": "Use passkey instead"
     },
     "hasAccount": "Already have an account? <0>Login here.</0>",
     "login": {
@@ -168,7 +169,10 @@
       "passphrasePlaceholder": "Passphrase",
       "submit": "Login",
       "title": "Login to your account",
-      "validationError": "Incorrect or incomplete passphrase /ᐠ. .ᐟ\\"
+      "validationError": "Incorrect or incomplete passphrase /ᐠ. .ᐟ\\",
+      "usePasskey": "Use passkey",
+      "or": "or",
+      "noBackendUrl": "No backend URL"
     },
     "register": {
       "information": {
@@ -209,7 +213,10 @@
       "passphraseLabel": "Your 12-word passphrase",
       "recaptchaFailed": "ReCaptcha validation failed",
       "register": "Create account",
-      "title": "Confirm your passphrase"
+      "title": "Confirm your account",
+      "passkeyDescription": "Please authenticate with your passkey to complete registration.",
+      "authenticatePasskey": "Authenticate with Passkey",
+      "passkeyError": "Passkey verification failed"
     }
   },
   "errors": {
@@ -1144,7 +1151,8 @@
           "link": "Migrate my data"
         },
         "documentation": "Backend documentation",
-        "error": "Error connecting to backend"
+        "error": "Error connecting to backend",
+        "notice": "Your account does NOT sync between backends, so remember which one you use!"
       },
       "setup": {
         "doSetup": "Do setup",
@@ -1346,7 +1354,8 @@
         "close": "Got it"
       },
       "traffic": "{{used}} / {{limit}} High-speed Traffic • Resets in {{reset}}",
-      "trafficExplanation": "Febbox gives you 100GB/month of high-speed traffic, the streams might buffer more after you've used up your quota. Depends on your internet speed and the quality of the stream."
+      "trafficExplanation": "Febbox gives you 100GB/month of high-speed traffic, the streams might buffer more after you've used up your quota. Depends on your internet speed and the quality of the stream.",
+      "useMp4": "Enable MP4 streams. May be faster outside of the U.S., but audio tracks cannot be changed."
     },
     "status": {
       "success": "success",
